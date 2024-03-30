@@ -1,4 +1,4 @@
 # SteelHack2024
 
 #### Dependencies:
-* pip install pexpect
+* need gpg and sshpass
