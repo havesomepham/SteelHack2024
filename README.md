@@ -2,3 +2,4 @@
 
 #### Dependencies:
 * need gpg and sshpass
+* `brew install sshpass`
