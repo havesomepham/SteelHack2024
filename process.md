@@ -1,0 +1,4 @@
+- 'MyPassword' > .sshpasswd
+- gpg -c .sshpasswd
+- rm .sshpasswd
+- gpg -d -q .sshpasswd.gpg | sshpass ssh -T user@thoth.cs.pitt.edu
